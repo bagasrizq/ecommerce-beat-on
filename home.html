@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+
+    <!-- Icon CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- Icon CDN -->
+    <link rel="stylesheet" href="home.css">
+    
+    <title>BeatON</title>
+</head>
+<body class="home">
+
+<!-- =============================================Start Header Section============================================= -->
+
+    <header class="primary-header container flex">
+        <div class="header-inner-one flex">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="/source/image/logo.png" alt="">
+            </div>
+            <!-- Logo -->
+            <!-- Main Navigation -->
+            <nav>
+                <ul id="primary-nav" data-visible="false" class="primary-nav flex">
+                    <li><a class="active fs-100 fs-montserrat bold-500" href="/home.html">Home</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="/shop.html">Shop</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="/about.html">About Us</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="/blog.html">Blog</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="/contact.html">Contact</a></li>
+                    <li><a class="fs-100 fs-montserrat bold-500" href="/cart.html">Cart</a></li>
+                    <button class="mobile-close-btn" data-visible="false" aria-controls="primary-nav"><i class="uil uil-times-circle"></i></button>
+                </ul>
+            </nav>
+            <!-- Main Navigation -->
+        </div>
+        <div class="header-login flex">
+            <!-- Auth Button -->
+            <p class="fs-100 fs-montserrat bold-500">Log In</p>
+            <!-- Auth Button -->
+            <i class="uil uil-search"></i>
+            <i id="cart-box" aria-controls="cart-icon" class="uil uil-shopping-bag"></i>
+
+            <!-- ================================================================== -->
+            <!-- Cart Box -->
+             <div id="cart-icon" data-visible="false" class="cart-icon">
+                <div class="shopping flex">
+                    <p>Shopping Basket</p>
+                    <i class="uil uil-times"></i>
+                </div>
+                <div class="cart bold-800 flex">
+                    <i class="uil uil-shopping-cart-alt"></i>
+                    <p>Cart Is Empty</p>
+                </div>
+             </div>
+            <!-- Cart Box -->
+            <!-- ================================================================== -->
+
+        </div>
+        <div class="mobile-open-btn">
+            <i class="uil uil-align-right"></i>
+        </div>
+    </header>
+    
+<!-- =============================================End Header Section============================================= -->
+<!-- Test UI KIT -->
+ 
+<!-- Test UI KIT -->
+
+
+    <script src="home.js"></script>
+</body>
+</html>
